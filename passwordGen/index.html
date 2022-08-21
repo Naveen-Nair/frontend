@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <script src="home.js" defer></script>
+</head>
+<body>
+    <h1>Password Generator</h1>
+
+    <div class="textStuff">
+        <span>Enter length of password : </span>
+        <input id="length" required/>
+        <div class="includeBox">
+            <h3> Include : </h3>   
+            <input id="upperCheck" type="checkbox" /><span id="upperSpan">Upper Case Characters</span> 
+            <br />
+            <input id="lowerCheck" type="checkbox" /><span id="lowerSpan">Lower Case Characters</span>
+            <br />
+            <input id="numberCheck" type="checkbox" /><span id="numberSpan">Numbers</span>
+            <br />
+            <input id="symbolCheck" type="checkbox" /><span id="symbolSpan">Symbols</span>
+            <br />
+        </div>
+
+        
+    </div>
+
+
+    <div clas="generateDiv">
+        <button id="generate">Generate Password!</button>
+    </div>
+
+
+    <h3 id="showPassword">password : <span id="genPassword"> </span></h3>
+
+</body>
+</html>

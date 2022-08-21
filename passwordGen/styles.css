@@ -1,0 +1,28 @@
+#showPassword {
+    visibility: hidden;
+}
+body{
+    margin:0;
+}
+h1 {
+    text-align: center;
+    background-color: aqua;
+    padding:20px;
+    margin:0;
+    margin-bottom:10px;
+}
+
+.textStuff {
+    padding:20px;
+    
+}
+
+#generate {
+    padding:10px 20px;
+    
+}
+.generateDiv {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
